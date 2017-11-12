@@ -15,8 +15,10 @@ class Question{
   }
 
   static Find(id){
+    let i=0;
     return this.All().filter(function(questions){
-      return questions;
+      ++i;
+      return questions[i]===questions[id-1];
     })
   }
 }
