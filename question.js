@@ -13,11 +13,12 @@ class Question{
   static All(){
     return this._All;
   }
-
+  
   static Find(id){
-    return this.All().filter(function(questions,index){
-      return index===id-1
+    const test= this._All.filter(function(questions,index){
+      return index===id-1;
     })
+    return test[0];
   }
 }
 
