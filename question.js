@@ -14,11 +14,11 @@ class Question{
     return this._All;
   }
 
-//  static Find(id){
+  static Find(id){
 //    return this.All().filter(function(questions,index){
 //      return index===id-1
 //    })
-//  }
+  }
 }
 
 Question._All=[];
