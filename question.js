@@ -16,8 +16,8 @@ class Question{
 
   static Find(id){
     return this.All().filter(function(questions,index){
-//      return index===id-1
-//    })
+      return index===id-1
+    })
   }
 }
 
