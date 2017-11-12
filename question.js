@@ -15,10 +15,10 @@ class Question{
   }
 
   static Find(id){
-    return this.All().filter(function(questions,index){
-      return index===id-1
-    })
-  }
+//    return this.All().filter(function(questions,index){
+//      return index===id-1
+//    })
+//  }
 }
 
 Question._All=[];
