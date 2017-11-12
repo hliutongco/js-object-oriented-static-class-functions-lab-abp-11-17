@@ -19,6 +19,6 @@ class Question{
 //      return index===id-1
 //    })
 //  }
-//}
+}
 
 Question._All=[];
