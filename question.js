@@ -15,7 +15,7 @@ class Question{
   }
 
   static Find(id){
-    return "What city were you born in?"
+    return { Object "What city were you born in?"}
 //    return this.All().filter(function(questions,index){
 //      return index===id-1
 //    })
